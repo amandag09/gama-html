@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <title>Página para Exercícios HTML | Gama Academy</title>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Texto descritivo da página web" />
+    <mata name="author" content="Gama Academy" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+</head>
+
+<body>
+    <!-- Cabeçalho -->
+    <header role="banner">
+        <nav role="navigation" aria-level="main navigation">
+            <ul role="menu">
+                <li>
+                    <a href="#" role="menuitem">Home</a>
+                </li>
+                <li>
+                    <a href="#" role="menuitem">Quem Somos</a>
+                </li>
+                <li>
+                    <a href="#" role="menuitem">Contato</a>
+                </li>
+                <li>
+                    <a href="#" role="menuitem">Conteúdos</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Fim do Cabeçalho -->
+
+    <!-- Conteúdo principal -->
+    <main role="main">
+
+        <!-- O que são métodos?
+            Um médoto é uma função associada a um objeto, ou, simplesmente, um método é uma propriedade de um objeto que é uma função. Métodos são definidos da forma que as funções normais são definidas, exceto que eles tenham que ser atribuídos como proriedade de um objeto.
+    
+            Fonte: MDN Web Docs
+        -->
+
+        <p id="article-description">
+            Baby Yoda é um membro pequeno da mesma espécie alienígena sem nome dos personagens de Star Wars Yoda e
+            Yaddle, com quem ele compartilha uma forte habilidade na Força.
+        </p>
+
+        <script type="texto/javascript">
+        
+            
+            var paragrafo = document.getElementById("article-description");
+            
+            paragrafo.style.color = "blue";
+
+            paragrafo.innerText = "Texto mudou!"
+
+
+
+        </script>
+
+    </main>
+    <!-- Fim do Conteúdo principal -->
+
+    <!-- Rodapé -->
+    <footer role="contentinfo">
+        &copy; 2020 Gama Academy
+    </footer>
+    <!-- Fim do Rodapé-->
+
+</body>
+
+</html>

@@ -1,0 +1,1 @@
+Este projeto é um teste de HTML realizado a partir das aulas do Hiring Coders #2 da Gama Academy.
